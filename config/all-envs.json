@@ -8,12 +8,12 @@
   "logLevel":        "debug",
   "logTarget":       "humanizer",
   "locatorSalt":     "CHANGE_ME",
-  "PORT":            3000,
+  "PORT":            33030,
   "bodyLimit":       "2mb",
   "useNewRelic":     false,
   "redis": {
     "host": "localhost",
-    "port": 6379,
+    "port": 12356,
     "db": 0
   },
 
@@ -31,11 +31,6 @@
   "totpDisableGracePeriod": "7d",
   "totpWindow": 1,
   "allowedOrigins": [
-    "*.stellar.org",
-    "stellar.org",
-    "localhost",
-    "*.localhost",
-    "*.dev",
-    "credex.coinexgateway.com"
+    "*"
   ]
 }
